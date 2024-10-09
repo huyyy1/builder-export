@@ -1,0 +1,32 @@
+.frame5428 {
+  background: rgba(133, 138, 242, 1);
+  width: 286px;
+  height: 54px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+.frame5428:hover:active {
+  background: #404153;
+}
+.text {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 18px;
+  left: 108px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text {
+    text-align: center;
+    left: 164px;
+    top: 16px;
+  }
+}

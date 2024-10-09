@@ -1,0 +1,105 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-self: flex-start;
+}
+.freeBox___3QTtz {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30px;
+  max-width: 100%;
+  background: var(--token-8AhlvI3CT_eO);
+  transform: translateX(15px) translateY(0px) translateZ(0px) skewX(-20deg)
+    skewY(0deg);
+  margin-left: -1px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___3QTtz {
+    margin-left: -5px;
+  }
+}
+.freeBox__unFcv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-8AhlvI3CT_eO);
+  padding: 12px 40px 12px 25px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__unFcv {
+    padding-left: 0px;
+    padding-right: 12px;
+  }
+}
+.freeBox__wDOrV {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px 0px 8px;
+}
+.text__xbLt7 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-size: 12px;
+  letter-spacing: 0.5%;
+  text-align: center;
+  align-self: flex-start;
+  color: #ffffff;
+  line-height: 1;
+}
+.text__kliq {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  right: auto;
+  color: #ffffff;
+  letter-spacing: 0.5%;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__kliq {
+    font-size: 20px;
+  }
+}
+.text___3DVid {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  font-size: 14px;
+  letter-spacing: 1%;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 0px;
+  line-height: 1;
+  font-weight: 400;
+}

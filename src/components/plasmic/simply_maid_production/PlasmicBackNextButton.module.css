@@ -1,0 +1,53 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+.arrowLeft2 {
+  opacity: 0.699;
+  transform: perspective(0px) rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+  width: 32px;
+  height: 32px;
+  display: block;
+  transform-origin: 50% 50%;
+  perspective: 0px;
+  backface-visibility: visible;
+  flex-shrink: 0;
+}
+.arrowLeft2direction_back {
+  transform: perspective(0px) rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+}
+.root:hover .arrowLeft2 {
+  cursor: pointer;
+}
+.svg___2NhF {
+  object-fit: cover;
+  max-width: 100%;
+  color: #314351;
+  width: 32px;
+  height: 32px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: none;
+}
+.svg__kyeI {
+  object-fit: cover;
+  max-width: 100%;
+  color: #314351;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  width: 14.079px;
+  height: 8.106px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 12px;
+  left: 9px;
+}

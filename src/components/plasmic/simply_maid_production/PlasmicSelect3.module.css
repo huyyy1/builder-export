@@ -1,0 +1,68 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.dataProvider:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.li {
+  display: list-item;
+}
+.freeBox__rjQ4Z {
+  display: flex;
+}
+.radioGroup:global(.__wab_instance) {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+  padding: 8px;
+}
+.radio__bBbH:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.text__ydoCc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.radio___7FTt1:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.text__qws7M {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.passwordInput:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.freeBox___3PpB {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}

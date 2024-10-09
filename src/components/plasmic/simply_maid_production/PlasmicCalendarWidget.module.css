@@ -1,0 +1,159 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 600px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    min-width: 400px;
+  }
+}
+.sideEffect:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.calendar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
+}
+.month {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.backButton:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.text {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5%;
+  line-height: 100%;
+  color: rgba(28, 42, 53, 1);
+  position: relative;
+  left: auto;
+  top: auto;
+  min-width: 160px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text {
+    font-size: 18px;
+  }
+}
+.nextButton:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.calendarDayNames {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+}
+.calendarDayNames > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-top: calc(0px - 18.633px);
+  height: calc(100% + 18.633px);
+}
+.calendarDayNames > :global(.__wab_flex-container) > *,
+.calendarDayNames > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.calendarDayNames > :global(.__wab_flex-container) > picture > img,
+.calendarDayNames
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 18.633px;
+}
+.freeBox__irPif {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: calc(45px + 18.633px) !important;
+  margin-bottom: 30px;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__irPif {
+    margin-top: calc(30px + 18.633px) !important;
+    margin-bottom: 20px;
+  }
+}
+.calendarDayLabel:global(.__wab_instance) {
+  max-width: 100%;
+}
+.calendarDayNumbers {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+}
+.calendarDayNumbers > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-top: calc(0px - 18.633px);
+  height: calc(100% + 18.633px);
+}
+.calendarDayNumbers > :global(.__wab_flex-container) > *,
+.calendarDayNumbers > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.calendarDayNumbers > :global(.__wab_flex-container) > picture > img,
+.calendarDayNumbers
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 18.633px;
+}
+.freeBox__lofxb {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  grid-row-gap: 2px;
+  grid-column-gap: 2px;
+  min-width: 0;
+}
+.calendarDayNumber:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}

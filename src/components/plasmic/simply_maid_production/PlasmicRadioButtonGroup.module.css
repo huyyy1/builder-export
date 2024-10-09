@@ -1,0 +1,51 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  min-width: 0;
+  border-radius: 12px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox {
+    box-shadow: none;
+  }
+}
+.freeBoxradioStyle_outlined {
+  box-shadow: none;
+}
+.freeBoxradioStyle_discount {
+  box-shadow: none;
+}
+.freeBoxlayout_columns {
+  display: flex;
+  flex-direction: column;
+}
+.freeBoxlayout_grid {
+  width: 100%;
+  align-items: stretch;
+  align-content: stretch;
+  min-width: 0;
+}
+.radioButton:global(.__wab_instance) {
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+.radioButtonitemWidth_stretchItemToFill:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.radioButtonlayout_columns:global(.__wab_instance) {
+  margin-bottom: 16px;
+}

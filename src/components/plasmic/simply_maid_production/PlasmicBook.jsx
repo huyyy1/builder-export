@@ -22,10 +22,7 @@ import {
   set as $stateSet,
   useDollarState
 } from "@plasmicapp/react-web";
-import {
-  DataCtxReader as DataCtxReader__,
-  useDataEnv
-} from "@plasmicapp/react-web/lib/host";
+import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import { usePlasmicDataOp } from "@plasmicapp/react-web/lib/data-sources";
 import SummaryCard from "../../SummaryCard"; // plasmic-import: KBsl1BV-ZLdj/component
 import Subtotal from "../../Subtotal"; // plasmic-import: T99kbqJ6eYJm/component
@@ -35,8 +32,6 @@ import Selectgroup from "../../Selectgroup"; // plasmic-import: BDNlAi2c7YMM/com
 import CalendarWidget from "../../CalendarWidget"; // plasmic-import: 6v7jVWeUBcyA/component
 import TextInput from "../../TextInput"; // plasmic-import: l-dOtwLtehPY/component
 import MultiLineInput from "../../MultiLineInput"; // plasmic-import: 1mS9GP8-dLkB/component
-import { CmsQueryRepeater } from "@plasmicpkgs/plasmic-cms";
-import { CmsRowField } from "@plasmicpkgs/plasmic-cms";
 import { useScreenVariants as useScreenVariants_7MCivF4FUjWx } from "./PlasmicGlobalVariant__UnnamedGroup"; // plasmic-import: 7mCivF4FUjWX/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
@@ -2853,69 +2848,6 @@ function PlasmicBook__RenderFunc(props) {
             </Stack__>
           </Stack__>
         </div>
-        <CmsQueryRepeater
-          data-plasmic-name={"cmsDataFetcher"}
-          data-plasmic-override={overrides.cmsDataFetcher}
-          className={classNames("__wab_instance", sty.cmsDataFetcher)}
-          desc={false}
-          emptyMessage={
-            <DataCtxReader__>
-              {$ctx => (
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__yHnF1
-                  )}
-                >
-                  {"No matching published entries found."}
-                </div>
-              )}
-            </DataCtxReader__>
-          }
-          forceEmptyState={false}
-          forceLoadingState={false}
-          limit={0}
-          loadingMessage={
-            <DataCtxReader__>
-              {$ctx => (
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__xGoAg
-                  )}
-                >
-                  {"Loading..."}
-                </div>
-              )}
-            </DataCtxReader__>
-          }
-          noAutoRepeat={false}
-          noLayout={false}
-          useDraft={false}
-        >
-          <DataCtxReader__>
-            {$ctx => (
-              <div className={classNames(projectcss.all, sty.freeBox__tpTXq)}>
-                <CmsRowField
-                  data-plasmic-name={"cmsEntryField"}
-                  data-plasmic-override={overrides.cmsEntryField}
-                  className={classNames("__wab_instance", sty.cmsEntryField)}
-                  themeResetClassName={classNames(
-                    projectcss.root_reset,
-                    projectcss.root_reset_tags,
-                    projectcss.plasmic_default_styles,
-                    projectcss.plasmic_mixins,
-                    projectcss.plasmic_tokens,
-                    plasmic_antd_5_hostless_css.plasmic_tokens,
-                    plasmic_plasmic_rich_components_css.plasmic_tokens
-                  )}
-                />
-              </div>
-            )}
-          </DataCtxReader__>
-        </CmsQueryRepeater>
       </div>
     </React.Fragment>
   );
@@ -2974,9 +2906,7 @@ const PlasmicDescendants = {
     "continueButton6",
     "billingFormPage",
     "title5",
-    "continueButton7",
-    "cmsDataFetcher",
-    "cmsEntryField"
+    "continueButton7"
   ],
 
   nav: [
@@ -3181,9 +3111,7 @@ const PlasmicDescendants = {
   continueButton6: ["continueButton6"],
   billingFormPage: ["billingFormPage", "title5", "continueButton7"],
   title5: ["title5"],
-  continueButton7: ["continueButton7"],
-  cmsDataFetcher: ["cmsDataFetcher", "cmsEntryField"],
-  cmsEntryField: ["cmsEntryField"]
+  continueButton7: ["continueButton7"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -3269,8 +3197,6 @@ export const PlasmicBook = Object.assign(
     billingFormPage: makeNodeComponent("billingFormPage"),
     title5: makeNodeComponent("title5"),
     continueButton7: makeNodeComponent("continueButton7"),
-    cmsDataFetcher: makeNodeComponent("cmsDataFetcher"),
-    cmsEntryField: makeNodeComponent("cmsEntryField"),
     // Metadata about props expected for PlasmicBook
     internalVariantProps: PlasmicBook__VariantProps,
     internalArgProps: PlasmicBook__ArgProps,

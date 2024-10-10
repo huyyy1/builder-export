@@ -609,7 +609,6 @@
   height: 1em;
 }
 .addons {
-  display: flex;
   flex-direction: column;
   position: relative;
   align-items: center;
@@ -618,6 +617,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
+  display: none;
 }
 .title4 {
   width: auto;
@@ -1524,42 +1524,4 @@
   object-fit: cover;
   width: auto;
   height: 1em;
-}
-.cmsDataFetcher:global(.__wab_instance) {
-  width: 100%;
-  display: flex;
-  max-width: 100%;
-  flex-direction: column;
-  object-fit: cover;
-  min-width: 0;
-}
-.freeBox__tpTXq {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: flex-start;
-  align-items: center;
-  min-width: 0;
-  padding: 8px;
-}
-.cmsEntryField:global(.__wab_instance) {
-  object-fit: cover;
-  max-width: 100%;
-}
-.text__yHnF1 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  min-width: 0;
-}
-.text__xGoAg {
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  min-width: 0;
 }
